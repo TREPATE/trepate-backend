@@ -1,0 +1,9 @@
+node_modules/
+dist/
+coverage/
+*.log
+
+# Secretos: solo se versiona la plantilla
+.env
+.env.*
+!.env.example
