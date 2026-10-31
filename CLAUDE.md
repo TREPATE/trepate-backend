@@ -21,6 +21,7 @@ Node.js 24 · TypeScript (ESM) · Express 5 · Prisma 6 · Supabase (PostgreSQL)
 ## Reglas del proyecto
 - Solo backend. El alcance actual son las 3 primeras pantallas del Figma.
 - Push solo con confirmación explícita del usuario.
+- Commits y PR sin `Co-Authored-By` ni otra atribución a Claude.
 - Comentarios cortos en español en las funciones principales.
 - Prisma fijo en 6.19.3. `latest` apunta a una versión candidata de la 8.
 - Usar `prisma migrate`, no `db push`: los `CHECK` manuales solo viven en las migraciones.
